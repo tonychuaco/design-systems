@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Jumbotron = () =>
-<div>
+const Task = ({ task: { id, title, state }, onArchiveTask, onPinTask }) =>
+  <div className="list-item">
+    <input type="text" value={title} readOnly={true} />
+  </div>
 
-</div>
-
-export default Jumbotron;
+export default Task;
