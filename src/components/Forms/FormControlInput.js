@@ -1,5 +1,6 @@
 import React from 'react';
 
+// .form-control
 const FormControl = () =>
   <div className="form-group">
     <label for="exampleFormControlInput1">Text Input:</label>

@@ -1,5 +1,6 @@
 import React from 'react';
 
+// .form-control-range
 const FormControlRange = () =>
   <div className="form-group">
     <label htmlFor="formControlRange">Range Input:</label>

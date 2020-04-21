@@ -1,5 +1,6 @@
 import React from 'react';
 
+// readonly, .form-control-plaintext
 const FormControlReadonlyPlainText = () =>
   <div className="form-group">
     <label htmlFor="staticEmail" className="">Readonly:</label>
